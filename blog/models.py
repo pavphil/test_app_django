@@ -3,7 +3,7 @@ from django.utils import timezone
 
 
 class Post(models.Model):
-    #firsttestmodel
+    #firsttestmodeltest
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
     age = models.IntegerField(default=0)
